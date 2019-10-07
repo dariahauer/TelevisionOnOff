@@ -11,4 +11,16 @@ public class Television {
         on = o;
     }
 
+    public void turnOn() {
+        on = true;
+    }
+
+    public void turnOff() {
+        on = false;
+    }
+
+    public void showStatus() {
+        System.out.println("Television status: " + on);
+
+    }
 }
